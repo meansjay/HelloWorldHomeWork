@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: 'Verdana', sans-serif; /* Clean and modern font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+h1 {
+    color: #2c3e50; /* Dark blue */
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+/* Paragraph Styles */
+p {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    line-height: 1.6;
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: justify;
+}
+
+/* Image Styles */
+img {
+    max-width: 300px;
+    height: auto;
+    margin: 20px 0;
+    border: 5px solid #2c3e50; /* Dark blue border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+/* Link Styles */
+a {
+    color: #007BFF; /* Bright blue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Container for layout */
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #2c3e50; /* Dark blue border */
+    border-radius: 10px;
+    background-color: #eaf2f8; /* Light blue-gray background */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Shadow for depth */
+    max-width: 800px;
+    margin: 20px auto;
+}
